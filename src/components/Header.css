@@ -12,3 +12,14 @@
   font-family: monospace;
   font-size: 30px;
 }
+.header-button{
+  background-color: #3d15ec10;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.header-button:hover {
+  background-color: #f5a907;
+  color: white;
+}
