@@ -5,10 +5,10 @@ import Layout from "./components/Layout";
 import { useSelector } from "react-redux";
 
 function App() {
-  const cartItems = useSelector((state) => state.cart.itemList);
-  console.log(cartItems)
+ 
   const isloggedIn = useSelector ((state)=> state.auth.isLoggedIn)
   console.log(isloggedIn)
+  const cart = useSelector((state) => state.cart)
   return (
     <div className="App">
       {!isloggedIn && <Auth />}
